@@ -5,11 +5,11 @@
     "celery",
     "monitor"
   ],
-  "website": "https://github.com/jpadilla/heroku-flower",
-  "repository": "https://github.com/jpadilla/heroku-flower",
+  "website": "https://github.com/kmctown/heroku-flower",
+  "repository": "https://github.com/kmctown/heroku-flower",
   "env": {
-    "BROKER_URL": {
-      "description": "Default broker URL.",
+    "CLOUDAMQP_URL": {
+      "description": "Broker URL.",
       "value": ""
     },
     "FLOWER_BASIC_AUTH": {
